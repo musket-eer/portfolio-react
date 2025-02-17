@@ -75,7 +75,7 @@ const projects = [
       "React (HTML/CSS, JavaScript), Node.js/Express",
     date: "Jan. 2025 - Present",
     description:
-      "A full-stack, ChatGPT-like personal AI assitant coding application built with a responsive React frontend and an Express backend. Integrates the deepseek-r1 language model to generate intelligent responses, featuring autosave, dynamic chat renaming, shareable chat links, and a clean, modern UI with a collapsible sidebar.",
+      "Developed a full-stack AI coding assistant with a React frontend and FastAPI backend. Integrated Deepseek‑r1, OpenAI, and Gemini models for intelligent responses, featuring autosave, chat renaming, shareable links, and a modern UI with a collapsible sidebar.",
     links: {
       github: "https://github.com/branley1/juacode-ai",
     },
