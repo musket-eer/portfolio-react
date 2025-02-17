@@ -62,6 +62,8 @@ const ExperienceTimeline: React.FC = () => (
       location="Swarthmore, PA"
       description={[
         "Executed software upgrades and patch implementations, addressing an average of 35 IT-related tickets per week, improving system efficiency by 20%, and boosting user satisfaction in a high-demand environment.",
+        "Developed and maintained a user-friendly ticketing system, reducing ticket resolution time by 30% and enhancing customer satisfaction.",
+        "Collaborated with IT teams to implement new software and hardware solutions, ensuring seamless integration and optimal system performance.",
       ]}
     />
     <ExperienceItem
