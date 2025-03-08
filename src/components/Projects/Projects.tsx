@@ -59,107 +59,46 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
 const projects = [
   {
-    name: "Bmmasi Portal",
-    technologies: "React (TypeScript, HTML, SCSS, JavaScript)",
-    date: "Nov. 2024 - Present",
-    description:
-      "A responsive portfolio website showcasing my projects and skills, built with React and TypeScript.",
-    links: {
-      live: "https://bmmasi.com",
-      github: "https://github.com/branley1/portfolio-react",
-    },
-  },
-  {
-    name: "JuaCode AI Coding Assistant",
+    name: "The Baiji",
     technologies:
-      "React (HTML/CSS, JavaScript), Node.js/Express",
+      "React (HTML/CSS, JavaScript), Spring Boot(Java), MariaDB, Docker, Nginx",
     date: "Jan. 2025 - Present",
     description:
       "Developed a full-stack AI coding assistant with a React frontend and FastAPI backend. Integrated Deepseek‑r1, OpenAI, and Gemini models for intelligent responses, featuring autosave, chat renaming, shareable links, and a modern UI with a collapsible sidebar.",
     links: {
-      github: "https://github.com/branley1/juacode-ai",
+      Site: "https://www.thebaiji.com",
     },
   },
   {
-    name: "Moodi-fi",
+    name: "Mansplain",
     technologies:
-      "React (TypeScript, HTML, SCSS, JavaScript), MongoDB, Spotify WebAPI, Gemini 2.0 API, Gemini 1.5 API",
-    date: "Dec. 2024 - Present",
-    description:
-      "Currently working on a tool that let's users login to their Spotify, get detailed summaries of their listening and generate mood playlists based on text (coming soon: multimodal).",
-    links: {
-      github: "https://github.com/branley1/moodi-fi",
-    },
-  },
-  {
-    name: "Deepseek-r1 with RAG",
-    technologies: "Python, Jupyter Notebook",
-    date: "Dec. 2024 - Present",
-    description:
-      "Engineered a chatbot application leveraging the open-source Deepseek-r1 reasoning model to deliver context-rich, privacy-preserving local AI interactions using Knowledge Augmented Generation (KAG) framework.",
-    links: {
-      github: "https://github.com/branley1/deepseek-r1",
-    },
-  },
-  {
-    name: "Sentimental Analysis with GRUs",
-    technologies: "Python, TensorFlow, Keras",
-    date: "Mar. 2024 - May 2024",
-    description:
-      "A GRU-based neural network for emotion classification from text, achieving 93% accuracy on a dataset of 70,000 tweets.",
-    links: {
-      github: "https://github.com/branley1/Predicting-emotions-with-GRUs.git",
-    },
-  },
-  {
-    name: "Multi-label Classification with k-NN",
-    technologies: "Python, Scikit-learn",
-    date: "Oct. 2023 - Dec. 2023",
-    description:
-      "A custom k-NN algorithm for multi-label classification with feature weighting, applied to molecular data analysis.",
-    links: {
-      github:
-        "https://github.com/branley1/Multi-label-Classification-with-k-Nearest-Neighbor.git",
-    },
-  },
-  {
-    name: "iOS Flashcard Application",
-    technologies: "Swift, Xcode, SnapKit",
-    date: "Feb. 2022 - Feb. 2024",
-    description:
-      "An iOS app for flashcard management with a responsive UI, local data persistence, and extensible architecture.",
-    links: {
-      github: "https://github.com/branley1/flashcard-update.git",
-    },
-  },
-  {
-    name: "A Smol Course",
-    technologies: "Python, Google Colab, OpenAI, Hugging Face",
-    date: "Dec. 2024 - Present",
-    description:
-      "A practical, community-driven course on aligning small language models for domain-specific applications, providing a hands-on approach to working with small language models from initial training to production deployment.",
-    links: {
-      github: "https://github.com/branley1/smol-course.git",
-    },
-  },
-  {
-    name: "Simple Multi-Band Compressor Plugin",
-    technologies: "C++, JUCE, Xcode, Fork",
-    date: "Nov. 2024 - Present",
-    description:
-      "A simple multi-band compressor plugin built with JUCE, Xcode and C++ based off freeCodeCamp's tutorial.",
-    links: {
-      github: "https://github.com/branley1/",
-    },
-  },
-  {
-    name: "Google AI Studio Set up",
-    technologies:
-      "Gemini 2.0 API, Google AI Studio, Google Colab, Jupyter Notebook",
+      "Python, Shell, OpenAI",
     date: "Dec. 2024 - Dec. 2024",
-    description: "API setup for aistudio.google.com.",
+    description:
+      "CLI-based to help understand the folder structure of any modular open source project locally",
     links: {
-      github: "https://github.com/branley1/aistudio.google.com.git",
+      github: "https://github.com/musket-eer/mansplain",
+    },
+  },
+  {
+    name: "Suicide Risk Predictor",
+    technologies: "Python, Java, NLP, Parallelism",
+    date: "Dec. 2023 - Dec 2023",
+    description:
+      "Implemented a perceptron classifier and trained in on a large corpus of raw reddit texts. Run training in parallel, and used sentimental analysis to further enhance accuracy",
+    links: {
+      github: "https://github.com/musket-eer/suicide-risk-predictor",
+    },
+  },
+  {
+    name: "Trading Agent",
+    technologies: "Python, Tesseract, Pillow, OpenCV",
+    date: "Oct. 2021 - Oct 2021",
+    description:
+      "Human mimicking trading agent that utilized computer vision, image libraries and GUI automation to execute trades autonomously",
+    links: {
+      github: "https://github.com/musket-eer/binarytradingautomation",
+      youtube: "https://www.youtube.com/watch?v=vomBFR9Q3bo"
     },
   },
 ];
