@@ -5,14 +5,7 @@ import "/src/components/ProfileDetails/_profile-details.scss";
 
 const ProfileDetails: React.FC = () => {
   // Event handlers for Google Analytics
-  const handleDownloadResume = () => {
-    ReactGA.event({
-      category: "Resume",
-      action: "Downloaded Resume",
-      label: "Download Resume Button",
-    });
-  };
-
+  
   const handleMessageMe = () => {
     ReactGA.event({
       category: "Contact",
@@ -37,33 +30,54 @@ const ProfileDetails: React.FC = () => {
     });
   };
 
-  const handleClassicSite = () => {
-    ReactGA.event({
-      category: "Navigation",
-      action: "Visited Classic Site",
-      label: "Classic Site Button",
-    });
-  };
-
   return (
     <div className="hero-content text-left">
       <div className="profile-info">
-        <h1>Branley Mmasi</h1>
+        <h1>Russel Otieno</h1>
         <h4>
           {" "}
-          I'm a Computer Science major with a Cognitive Science minor at
-          Swarthmore College, graduating in May, 2025.{" "}
+          I'm a Computer Science Graduate from Pomona College{" "}
         </h4>
         <div className="hero-buttons mt-3">
+        <Button
+            variant="primary"
+            href="https://www.thebaiji.com"
+            target="_blank"
+            onClick={handleGitHub}
+          >
+            The Baiji
+          </Button>
           <Button
             variant="primary"
-            href="https://drive.google.com/file/d/1SrwJCrNLfMOLNtAwNVq5qT65MCIO15bS/view?usp=sharing"
-            target="_blank" /* Opens in new tab */
-            rel="noopener noreferrer"
-            onClick={handleDownloadResume}
+            href="https://mostlearned.xyz"
+            target="_blank"
+            onClick={handleGitHub}
           >
-            {" "}
-            Download Resume
+            Most Learned
+          </Button>
+          <Button
+            variant="primary"
+            href="https://github.com/musket-eer"
+            target="_blank"
+            onClick={handleGitHub}
+          >
+            GitHub
+          </Button>
+          <Button
+            variant="primary"
+            href="https://www.linkedin.com/in/russel-otieno-b6010018a/"
+            target="_blank"
+            onClick={handleLinkedIn}
+          >
+            LinkedIn
+          </Button>
+          <Button
+            variant="primary"
+            href="https://leetcode.com/u/musk_eteer/"
+            target="_blank"
+            onClick={handleLinkedIn}
+          >
+            Leetcode
           </Button>
           <Button
             variant="primary"
@@ -72,29 +86,6 @@ const ProfileDetails: React.FC = () => {
             onClick={handleMessageMe}
           >
             Contact
-          </Button>
-          <Button
-            variant="outline-secondary"
-            href="https://github.com/musket-eer"
-            target="_blank"
-            onClick={handleGitHub}
-          >
-            GitHub
-          </Button>
-          <Button
-            variant="outline-secondary"
-            href="https://www.linkedin.com/in/russel-otieno-b6010018a/"
-            target="_blank"
-            onClick={handleLinkedIn}
-          >
-            LinkedIn
-          </Button>
-          <Button
-            variant="outline-secondary"
-            href="/classic/index.html"
-            onClick={handleClassicSite}
-          >
-            🎨 Retro Version
           </Button>
         </div>
       </div>

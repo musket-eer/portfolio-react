@@ -40,52 +40,61 @@ const ExperienceTimeline: React.FC = () => (
   <section id="experience" className="my-4 experience-timeline">
     <h2>Technical Experience</h2>
     <ExperienceItem
-      role="
-      Software Engineering Intern"
-      company="Google LLC"
-      duration="May 2024 - Aug 2024"
-      location="Sunnyvale, CA"
+      role="Geology Research Assistant"
+      company="Pomona College"
+      duration="Sep 2024 - Dec 2024"
+      location="Claremont, CA"
       description={[
-        "Enhanced a spam clustering tool by integrating advanced text and image embeddings, improving detection accuracy by 25% and addressing image-based spam challenges.",
+        "Developed interactive python scripts to visualize Pacific Ocean properties like temperature and salinity.",
 
-        "Optimized ETL pipelines, reducing data processing time by 10% and ensuring 99.9% uptime with fault-tolerant backend solutions.",
+        "Analyzed fluctuations across space and time to aid in ocean research.",
 
-        "Conducted code reviews and implemented unit tests in an agile environment, ensuring high-quality deliverables and seamless team collaboration.",
-
-        "Gained expertise in cloud computing, distributed systems, and data pipelines, with hands-on experience in C++, Go, SQL, and HTML/CSS.",
-      ]}
-    />
-    <ExperienceItem
-      role="IT Student Associate"
-      company="Swarthmore College"
-      duration="Sep 2023 - May 2024"
-      location="Swarthmore, PA"
-      description={[
-        "Executed software upgrades and patch implementations, addressing an average of 35 IT-related tickets per week, improving system efficiency by 20%, and boosting user satisfaction in a high-demand environment.",
-        "Developed and maintained a user-friendly ticketing system, reducing ticket resolution time by 30% and enhancing customer satisfaction.",
-        "Collaborated with IT teams to implement new software and hardware solutions, ensuring seamless integration and optimal system performance.",
+        "Collaborated in a team of three to acquire, clean, process, and visualize oceanography datasets.",
       ]}
     />
     <ExperienceItem
       role="Software Engineering Intern"
-      company="Amiva"
-      duration="May 2022 - Aug 2022"
-      location="Nairobi, Kenya"
+      company="Quantcast"
+      duration="Sep 2023 - May 2024"
+      location="San Francisco, CA"
       description={[
-        "Collaborated with Amiva's Engineering team to design and implement a payment infrastructure using Python, Django, MySQL and RabbitMQ, improving transaction processing by 40% and over 18% improvement in uptime.",
+        "Orchestrated a high-performance live data pipeline that processes over 30 million web events per hour, delivering real-time insights with ultra-low latency via UI and API. ",
+        "Implemented animated data visualizations that transformed the reporting interface and improved user engagement. ",
+        "Developed and optimized ETL processes to cut query and data aggregation time by 30%, while increasing data accuracy by 25%. ",
+        "Devised end-to-end data validation jobs achieving 99.9999% accuracy in data transformation across the entire pipeline, ensuring high data integrity and reliability."
       ]}
     />
     <ExperienceItem
-      role="iOS App Developer"
-      company="Codepath.org"
-      duration="Feb 2022 - May 2022"
-      location="Swarthmore, PA"
+      role="Advancement Analyst"
+      company="Pomona College"
+      duration="Auguest 2022 - May 2024"
+      location="Claremont, CA"
       description={[
-        "Learnt the fundamentals of Swift programming language and made iOS applications on Xcode.",
+        "Executed on-demand CRUD operations on advancement databases, delivering streamlined, efficient data management and enabling flexible data retrieval, updates, and deletions as needed.",
+      ]}
+    />
+    <ExperienceItem
+      role="Blockchain Developer"
+      company="Safariblocks Limited"
+      duration="Jun 2023 - Aug 2023"
+      location="Nairobi, KE"
+      description={[
+        "Designed an extensible blockchain-based order book leveraging a client-server protocol and employing best practices, enhancing agile adaptability.",
 
-        "Developed a fully functioning iOS Flashcard app as part of the Codepath Intro to Mobile Design—iOS course.",
+        "Engineered an optimized limit order book database using ORM, significantly simplifying data operations and eliminating complex SQL queries. ",
 
-        "Graduated with Honors.",
+        "Integrated the order book with Algorand through APIs, enabling secure and rapid asset swaps with end-to-end transfer times of under one second for assets and tokens.",
+      ]}
+    />
+    <ExperienceItem
+      role="Software Engineering Intern"
+      company="Ilara Health Limited"
+      duration="Jun 2022 - Aug 2022"
+      location="Nairobi, KE"
+      description={[
+        "Integrated payment automation within an off the shelf Laboratory Information Management System (LIMS), replacing cash transactions for lab fees and enhancing the efficiency of the billing process.",
+
+        "Enabled SMS automation for the LIMS to deliver diagnoses directly to patients, reducing turnaround time and eliminating the need for paper-based reports.",
       ]}
     />
   </section>

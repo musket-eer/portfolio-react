@@ -59,12 +59,24 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
 const projects = [
   {
+    name: "Most Learned",
+    technologies:
+      "React (HTML/CSS, JavaScript), Spring Boot(Java), MariaDB, Docker, Nginx, OpenAI, Stateful Agents",
+    date: "Feb. 2025 - Present",
+    description:
+      "Running AI agents in parallel to delivery real-time personalized educational content curated, designed and appraised fully by AI agents",
+    links: {
+      Site: "https://www.mostlearned.xyz",
+    },
+  },
+  
+  {
     name: "The Baiji",
     technologies:
       "React (HTML/CSS, JavaScript), Spring Boot(Java), MariaDB, Docker, Nginx",
     date: "Jan. 2025 - Present",
     description:
-      "Developed a full-stack AI coding assistant with a React frontend and FastAPI backend. Integrated Deepseek‑r1, OpenAI, and Gemini models for intelligent responses, featuring autosave, chat renaming, shareable links, and a modern UI with a collapsible sidebar.",
+      "Designed and Implemented and incrementally developing a scalable voucher listing and trading marketplace for media embedded vouchers",
     links: {
       Site: "https://www.thebaiji.com",
     },
@@ -75,11 +87,23 @@ const projects = [
       "Python, Shell, OpenAI",
     date: "Dec. 2024 - Dec. 2024",
     description:
-      "CLI-based to help understand the folder structure of any modular open source project locally",
+      "CLI-based tool that utilized OpenAI and Linux terminal commands to demistify the folder structure of any modular open source project locally",
     links: {
       github: "https://github.com/musket-eer/mansplain",
     },
   },
+  {
+    name: "Site Reliability Engineering Practicum",
+    technologies: "AWS(RDS, EC2, ELB), Certbot, New Relic, PagerDuty, Tomcat",
+    date: "Jan 2024 - May 2024",
+    description:
+      "Collaborated in deploying a Google Photos clone on AWS, achieving a 100%; average response time of 51ms. Real-time monitoring to enhance security, availability and reliability.",
+    links: {
+      github: "",
+      demo: ""
+    },
+  },
+
   {
     name: "Suicide Risk Predictor",
     technologies: "Python, Java, NLP, Parallelism",
@@ -97,7 +121,7 @@ const projects = [
     description:
       "Human mimicking trading agent that utilized computer vision, image libraries and GUI automation to execute trades autonomously",
     links: {
-      github: "https://github.com/musket-eer/binarytradingautomation",
+      github: "https://github.com/musket-eer/binarytadingautomation",
       youtube: "https://www.youtube.com/watch?v=vomBFR9Q3bo"
     },
   },

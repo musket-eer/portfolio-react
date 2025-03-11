@@ -1,5 +1,8 @@
 
 .sidebar {
+  flex: 0 0 300px; /* Default size */
+  width: 100%; /* Let it expand naturally */
+  max-width: 450px;
   font-family: 'IBM Plex Mono', monospace;
   position: sticky; /* Fix sidebar to the viewport */
   top: 0; /* Sticks to the top of it's container */
@@ -8,7 +11,6 @@
   color: var(--text-color);
   padding: 1rem;
   box-sizing: border-box;
-  width: 250px;
   border-radius: 8px;
   font-size: var(--font-size-body);
   border: 0.1px dashed var(--box-shadow-color); /* Other options: inset, outset, groove, double, dashed, dotted */
@@ -111,27 +113,6 @@
       }
     }
   }
-
-  .course-highlight {
-    font-size: 0.9rem;
-    padding: 0rem;
-    background-color: var(--card-color);
-    margin-bottom: 0rem;
-    margin-top: 0.5rem;
-    list-style: none;
-  }
-
-  .course-highlight > li {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-
-    strong {
-      color: var(--heading-color);
-      display: block;
-      margin-bottom: 0.25rem;
-    }
-  }
-
   .course-highlight > li > ul {
     list-style-type: square;
     list-style-position: outside;
@@ -158,16 +139,6 @@
       background-color: var(--bg-color);
     }
   }
-}
-
-.future-courses {
-  font-size: 0.9rem;
-  padding-left: 1.5em;
-  background-color: var(--card-color);
-  margin-bottom: 0rem;
-  margin-top: 0.5rem;
-  list-style-type: square;
-  list-style-position: outside;
 }
 
 .sidebar-profile-image {
