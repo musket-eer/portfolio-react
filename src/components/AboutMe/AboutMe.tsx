@@ -31,12 +31,9 @@ const AboutMe: React.FC = () => (
     <p>
       <li>OLAP and OLTP</li>
       <li>Virtualization and Containerization</li>
-      <li>Microservices Architecure</li>
       <li>Full-stack Development (Frontend & Backend)</li>
-      <li>Decentralization</li>
       <li>Data Processing Pipelines</li>
       <li>Language Models</li>
-      <li>Recommendation Systems</li>
       <li>Systems Security</li>
     </p>
     <p>
