@@ -15,29 +15,30 @@ const AboutMe: React.FC = () => (
       </a>, exploring the intersection of AI, distributed systems, large-scale system design, and recommendation systems
     </p>
     <p>
-      I'm passionate about building complex, high-performance systems with multiple moving parts. 
+      I'm passionate about complex, high-performance systems with multiple moving parts. 
       My fascination with breaking ideas down to their fundamental first principles has driven 
       me to explore the synergy between independent components working together as a whole.
     </p>
     <p>
       My experience spans full-stack development, blockchain engineering, and big data processing. 
       I've worked extensively in programmatic advertising, fintech, and blockchain, designing and 
-      optimizing high-performance data architectures. Recently, my focus has shifted toward 
-      recommendation systems, personalization models, and low-latency communication—technologies 
-      that power intelligent, adaptive experiences.
+      optimizing high-performance data architectures. Recently, I have also developed an interest towards 
+      recommendation systems, personalization models, and low-latency communication.
     </p>
     <p>
-      Beyond software, my curiosity extends to human anatomy, cognition, emotions, and social interactions. Whether it's optimizing distributed networks or understanding 
-      the complexities of human behavior, I'm fascinated by how systems evolve and function at scale. I am driven to understand these large scale system interaction down to their fundamental first principles.
-    </p>
+    I like complexity. Not just in computer systems, but in all manifestations around us. In society, emotions, history and geography around us.  </p>
     <h5>🔹 My Technical Interests:</h5>
-    <ul>
-      <li>Distributed Systems & Large-Scale Architecture</li>
-      <li>Stateful Agents & AI-driven Systems</li>
-      <li>Big Data Pipelines & Real-time Processing</li>
+    <p>
+      <li>OLAP and OLTP</li>
+      <li>Virtualization and Containerization</li>
+      <li>Microservices Architecure</li>
       <li>Full-stack Development (Frontend & Backend)</li>
-      <li>Blockchain, Fintech, and AI</li>
-    </ul>
+      <li>Decentralization</li>
+      <li>Data Processing Pipelines</li>
+      <li>Language Models</li>
+      <li>Recommendation Systems</li>
+      <li>Systems Security</li>
+    </p>
     <p>
       Outside of tech, I play chess and soccer, applying strategic thinking both on and off the field.
     </p>
